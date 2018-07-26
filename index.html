@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FOODWAY</title>
+    <meta charset="UTF-8" name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/Kreon-Regular.ttf">
+    <link rel="stylesheet" href="fonts/Arvo-Regular.ttf">
+    <link rel="stylesheet" href="css/style.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+        @import url('https://fonts.googleapis.com/css?family=Kreon:300,400,700');
+    </style>
+</head>
+
+<body class="loading">
+<div class="spinner-wrapper">
+    <div class="spinner"></div>
+</div>
+<div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><h2>FoodWay</h2></a>
+        </div><!-- navbar-header -->
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#story">Story</a></li>
+                <li><a href="#facts">Facts</a></li>
+
+                <li><a href="#food-menu">Food Menu</a></li>
+                <li><a href="#combo">Combo</a></li>
+
+                <li><a href="#food-gallery">Food Gallery</a></li>
+                <li><a href="#branches">Our Branches</a></li>
+                <!--fix for scroll spy active menu element-->
+                <li style="display:none;"><a href="#header"></a></li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+    </div><!-- container -->
+</div><!-- menu -->
+
+<div id="header">
+    <div class="bg-overlay"></div>
+    <div class="center text-center">
+        <div class="container">
+            <img src="images/logo.png" alt="f-logo">
+        </div>
+        <div class="subtitle"><h4>Fresh...Juicy...Foodway!</h4></div>
+    </div>
+    <div class="bottom text-center">
+        <a id="scrollDownArrow" href="#"><i class="fa fa-chevron-down"></i></a>
+    </div>
+</div>
+<!-- /#header -->
+
+<div id="story" class="light-wrapper">
+    <section class="ss-style-top"></section>
+    <div class="container inner">
+        <h2 class="section-title text-center">Our Story</h2>
+        <p class="lead main text-center">We are a fast food chain taking Anand by storm.</p>
+        <div class="row text-center story">
+            <div class="col-sm-4">
+                <div class="col-wrapper">
+                    <div class="icon-wrapper"><i class="fa fa-anchor"></i></div>
+                    <h3>EST. 2007</h3>
+                    <p>We're the fastest growing fast food chain in Anand since 2007.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-wrapper">
+                    <div class="icon-wrapper"><i class="fa  fa-cutlery"></i></div>
+                    <h3>Cooking Traditions</h3>
+                    <p>Tasty burger fused with our famous ingredients. </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-wrapper">
+                    <div class="icon-wrapper"><i class="fa fa-coffee"></i></div>
+                    <h3>Food Quality</h3>
+                    <p>We serve the best quality food.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.services -->
+    </div>
+    <!-- /.container -->
+    <section class="ss-style-bottom"></section>
+</div><!-- #story -->
+
+<div id="facts" class="parallax parallax2 facts">
+    <div class="bg-overlay"></div>
+    <div class="container inner">
+        <div class="row text-center services-3">
+            <div class="col-sm-4 facts-resize">
+                <div class="col-wrapper">
+                    <div class="icon-border bm10"><i class="fa fa-beer"></i></div>
+                    <h4>96518</h4>
+                    <p>Refreshments Served</p>
+                </div>
+            </div>
+            <div class="col-sm-4 facts-resize">
+                <div class="col-wrapper">
+                    <div class="icon-border bm10"><i class="fa fa-cutlery"></i></div>
+                    <h4>39472</h4>
+                    <p>Meals Served</p>
+                </div>
+            </div>
+            <div class="col-sm-4 facts-resize">
+                <div class="col-wrapper">
+                    <div class="icon-border bm10"><i class="fa fa-users"></i></div>
+                    <h4>80523</h4>
+                    <p>Customers in Anand</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+</div><!-- #facts -->
+
+<div id="food-menu" class="light-wrapper">
+    <section class="ss-style-top"></section>
+    <div class="container inner">
+        <h2 class="section-title text-center">Fresh, Juicy, Foodway Menu!</h2>
+        <p class="lead main text-center"></p>
+        <div class="row">
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/burger.png" alt="burger">
+                        <h4><b>Burger</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/pizza.png" alt="pizza">
+                        <h4><b>Pizza</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/sandwich.png" alt="sandwich">
+                        <h4><b>Sandwich</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/pasta.png" alt="pasta">
+                        <h4><b>Pasta</b></h4>
+                    </div>
+                </div>
+            </div>
+        </div><!--row-1-->
+        <div class="row">
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/wraps.png" alt="wraps">
+                        <h4><b>Wraps</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/fries.png" alt="fries">
+                        <h4><b>Fries</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/sub.png" alt="sub">
+                        <h4><b>Sub</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="card">
+                        <img src="images/thick-shake.png" alt="thick-shake">
+                        <h4><b>Thick-Shake</b></h4>
+                    </div>
+                </div>
+            </div>
+        </div><!--row-2-->
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-xs-offset-4 col-xs-4 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4">
+                <a class="btn btn-danger center-block btn-set" href="menu.html" style="display: block; margin: 0 auto;">Browse
+                    All</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- /.container -->
+    <section class="ss-style-bottom"></section>
+</div><!--/#food-menu-->
+
+<div id="combo" class="parallax pricing">
+    <div class="bg-overlay" style="color: white;"></div>
+    <div class="container inner">
+        <h2 class="section-title text-center">COMBO</h2>
+        <p class="lead main text-center">Some of our all time favorites!</p>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="pricing-item">
+                    <img class="img-responsive img-thumbnail" src="images/combo-1.png" alt="combo1">
+                    <div class="pricing-item-details">
+                        <h3>Burger + French Fries + Coke</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--price tag-->
+                    <span class="hot-tag br-red">₹70</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="pricing-item">
+                    <img class="img-responsive img-thumbnail" src="images/combo-2.png" alt="combo2">
+                    <div class="pricing-item-details">
+                        <h3>Classic Hot Burger + Choco Blast Thick Shake</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--price tag-->
+                    <span class="hot-tag br-red">₹90</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix visible-md"></div>
+            <div class="col-md-6 col-sm-6">
+                <div class="pricing-item">
+                    <img class="img-responsive img-thumbnail" src="images/combo-3.png" alt="combo3">
+                    <div class="pricing-item-details">
+                        <h3>Harabhara Sandwich + Fries + Coke</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--price tag-->
+                    <span class="hot-tag br-red">₹105</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="pricing-item">
+                    <img class="img-responsive img-thumbnail" src="images/combo-4.png" alt="combo4">
+                    <div class="pricing-item-details">
+                        <h3>Garlic Bread + Pizza(Veg. Delight) + Coke</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--price tag-->
+                    <span class="hot-tag br-red">₹130</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="pricing-item">
+                    <img class="img-responsive img-thumbnail" src="images/combo-5.png" alt="combo5">
+                    <div class="pricing-item-details">
+                        <h3>Cheese Burger + Lemon Iced Tea</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--price tag-->
+                    <span class="hot-tag br-red">₹55</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="pricing-item">
+                    <img class="img-responsive img-thumbnail" src="images/combo-6.png" alt="combo6">
+                    <div class="pricing-item-details">
+                        <h3>Cheese Blast Wrap + Cold Coffee</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--price tag-->
+                    <span class="hot-tag br-red">₹95</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+</div><!-- /#combo -->
+
+<div id="food-gallery" class="light-wrapper">
+    <section class="ss-style-top"></section>
+    <div class="container" style="padding-top: 100px;">
+        <h2 class="section-title text-center">Food Gallery</h2>
+        <p class="lead main text-center">Enjoy our amazing food.</p>
+    </div><!-- /.container -->
+    <div class='loc-catalog'>
+        <i id='icons-left' class='fa fa-chevron-left'></i>
+        <div class='loc-wrap'>
+            <div class='loc-icons'>
+                <img src="images/11.jpg" class='loc-item'>
+                <img src="images/222.jpg" class='loc-item'>
+                <img src="images/111.jpg" class='loc-item'>
+                <img src="images/123.jpg" class='loc-item'>
+                <img src="images/44.jpg" class='loc-item'>
+                <img src="images/99.jpg" class='loc-item'>
+                <img src="images/66.jpg" class='loc-item'>
+                <img src="images/33.jpg" class='loc-item'>
+                <img src="images/1.jpeg" class='loc-item'>
+                <img src="images/2.jpeg" class='loc-item'>
+                <img src="images/3.jpeg" class='loc-item'>
+                <img src="images/4.jpeg" class='loc-item'>
+                <img src="images/5.jpeg" class='loc-item'>
+                <img src="images/6.jpeg" class='loc-item'>
+                <img src="images/7.jpeg" class='loc-item'>
+                <img src="images/8.jpeg" class='loc-item'>
+                <img src="images/9.jpeg" class='loc-item'>
+                <img src="images/10.jpeg" class='loc-item'>
+                <img src="images/11.jpeg" class='loc-item'>
+                <img src="images/12.jpeg" class='loc-item'>
+                <img src="images/13.jpeg" class='loc-item'>
+                <img src="images/14.jpeg" class='loc-item'>
+                <img src="images/15.jpeg" class='loc-item'>
+                <img src="images/16.jpeg" class='loc-item'>
+
+            </div>
+        </div>
+        <i id='icons-right' class='fa fa-chevron-right'></i>
+    </div><!-- /.food carousel -->
+    <section class="ss-style-bottom"></section>
+</div><!-- #food-gallery -->
+
+<div id="branches" class="parallax pricing">
+    <div class="bg-overlay"></div>
+    <div class="container inner">
+        <h2 class="section-title text-center">Our branches</h2>
+        
+        <div class="row text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 map-height">
+                <div id="map1"></div>
+                <div id="overlay1">
+                    <div class="row branch-details">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h3><i class="fa fa-map-marker fa-fw"></i>Directions</h3>
+                            <p>G-8, Shiv Orbit, Near New Bus Stand, Anand, Gujarat</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h3><i class="fa fa-clock-o fa-fw"></i>Hours</h3>
+                            <p>Mon to Sat: 10:00 PM - 10:00 PM</p>
+                            <p>Sun: 3:00 PM - 10:00 PM</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <a class="btn btn-danger"
+                               href="https://www.google.co.in/maps/place/Dev's+Foodway/@22.5574702,72.9539499,17z/data=!3m1!4b1!4m5!3m4!1s0x395e4e8361d96705:0xc9d12ae6bdf40f03!8m2!3d22.5574702!4d72.9561439"
+                               target="_blank">Find Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 map-height ">
+                <div id="map2"></div>
+                <div id="overlay2">
+                    <div class="row branch-details">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h3><i class="fa fa-map-marker fa-fw"></i>Directions</h3>
+                            <p>Mota Bazaar, Vallabh Vidhyanagar, Anand, Gujarat</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h3><i class="fa fa-clock-o fa-fw"></i>Hours</h3>
+                            <p>Mon to Sat: 10:00 PM - 10:00 PM</p>
+                            <p>Sun: 3:00 PM - 10:00 PM</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <a class="btn btn-danger"
+                               href="https://www.google.co.in/maps/place/Foodway/@22.5522347,72.9204021,17z/data=!3m1!4b1!4m5!3m4!1s0x395e4e74cafe8493:0xe5fc6ba6ebe15ada!8m2!3d22.5522347!4d72.9225961"
+                               target="_blank">Find Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 map-height">
+                <div id="map3"></div>
+                <div id="overlay3">
+                    <div class="row branch-details">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h3><i class="fa fa-map-marker fa-fw"></i>Directions</h3>
+                            <p>16, akshar complex, chokdi,, Mahalaxmi Pulse Mill Area, Borsad, Gujarat</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <h3><i class="fa fa-clock-o fa-fw"></i>Hours</h3>
+                            <p>Mon to Sat: 10:00 PM - 10:00 PM</p>
+                            <p>Sun: 3:00 PM - 10:00 PM</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <a class="btn btn-danger"
+                               href="https://www.google.co.in/maps/place/Dev's+Foodway/@22.4194804,72.8951911,17z/data=!3m1!4b1!4m5!3m4!1s0x395fad62b8b2f9fd:0x45950fb99705a5ba!8m2!3d22.4194804!4d72.8973851"
+                               target="_blank">Find Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+</div><!-- /#branches -->
+
+<footer id="footer" class="dark-wrapper">
+    <section class="ss-style-top"></section>
+    <div class="container inner">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <p><i class="fa fa-mobile fa-fw"></i>Contact Us</p>
+                <p>Anand : +91 88660 62121</p>
+                <p>+91 99987 25631</p>
+                <p>V.V.Nagar : +91 99093 62121</p>
+                <p>Borsad : +91 95586 57326</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4" style="padding-bottom: 30px;">
+                <div class="social-bar">
+                    <a href="https://www.instagram.com/explore/locations/945238024/devs-foodway/" class="fa fa-instagram tooltipped" title="instagram"></a>
+
+                    <a href="https://www.facebook.com/devfoodway/" class="fa fa-facebook-square tooltipped" title="facebook"></a>
+
+                   <!--  <a href="#" class="fa fa-google-plus-square tooltipped" title="google+"></a> -->
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                &copy; Copyright FoodWay 2018
+            </div>
+        </div><!--row-->
+    </div><!-- /.container -->
+</footer>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.actual.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.min.js"></script>
+<script src="js/index.min.js"></script>
+<script type="text/javascript" src="js/map.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLs2tEWmTVZftvgfs7QDGxMlh3VtzUtDY&callback=initMap">
+</script>
+
+</body>
+</html>
